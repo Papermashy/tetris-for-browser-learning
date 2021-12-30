@@ -1,0 +1,90 @@
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #D2E7E4;
+  padding: 10px 10px;
+}
+
+/* Style the header links */
+.header-right a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: Helvetica;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: #29ABE2;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+body {
+  background-color: #D2E7E4;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #BBCDCA;
+  color: black;
+  text-align: center;
+  font-family: helvetica;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.hello {
+  font-family: Courier, Helvetica, Tahoma;
+  font-size: 50px;
+  margin:auto;
+  text-align: center;
+}
+
+.header-vector {
+    margin:auto;
+
+}
+
+.grid {
+  width:200px;
+  height:400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.grid div {
+  height:20px;
+  width: 20px;
+}
+
+.tetromino{
+  background-color: blue
+}
+]
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
